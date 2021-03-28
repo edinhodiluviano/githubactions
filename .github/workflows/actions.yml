@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-20.04
     container: docker://python:3.9.2-alpine3.13
 
-
     steps:
     - name: Checkout Project
       uses: actions/checkout@v2
